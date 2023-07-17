@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo.png");
+}
+
+.fondo{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo-form.png");
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+.form1{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    
+
+}
+
+form h1, input,
+button {
+   
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form > *{
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.form1 h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 32.64px;
+    font-weight: 700;
+    color: var(--color1);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.form1 input,button{
+    font-family: 'Mulish', sans-serif;
+    font-size: 26.6px;
+}
+
+.form1 input{
+    font-weight: 400;
+    color: var(--color3);
+}
+
+.form1 button{
+    font-weight: 600;
+    color: white;
+background-color: var(--color4);
+}

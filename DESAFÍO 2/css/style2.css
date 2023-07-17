@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+/* height: 750px;
+background-image: url("../Recursos/Ejercicio 2/M4 - Desafío3_img-header.png");
+background-size: contain; */
+
+}
+
+img{
+    width: 100vw;
+}
+

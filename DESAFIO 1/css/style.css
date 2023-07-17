@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Poppins:wght@400;700&display=swap');
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Poppins', sans-serif; 
+*/
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo_ej1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 37.48px;
+    font-weight: 900;
+    color: var(--color1);
+    margin-bottom: 30px;
+}
+
+.conteiner_ej1 {
+    display: flex;
+}
+
+.img_ej1 {
+    width: 55px;
+    margin-right: 15px;
+    position: absolute;
+}
+
+.conteiner_ej1 div {
+    width: 40%;
+    margin-left: 70px;
+}
+
+.conteiner_ej1 div h2{
+    font-family: 'Mulish', sans-serif;
+font-size: 21.56px;
+font-weight: 700;
+color: var(--color2);
+padding-top: 10px;
+
+}
+
+.conteiner_ej1 div p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 19.97px;
+    font-weight: 400;
+    color: var(--color1);
+    margin-top: 20px;
+}
+
+.posiciones{
+    
+}
+
+.posiciones img{
+    display: inline;
+width: 30%;
+}
+
+.title2{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 66.6px;
+    font-weight: 700;
+    color: var(--color2);
+    margin-bottom: 50px;
+}
+
+.title3{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+font-size: 30.06px;
+font-weight: 400;
+color: var(--color2);
+background-color: var(--color-fondo1);
+}
+
+.title3 span{
+    font-weight: 700;
+}
+
+.bt1{
+    margin: 30px 0 10px 0;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 30.06px;
+    font-weight: 400;
+    display: block;
+    background-color: var(--color-fondo2);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+.borde{
+    background-color: var(--color-linea);
+    height: 5px;
+    width: 95%;
+    margin-top: 5px;
+}
+
+
+/* .------------- */
+form {
+    width: 500px;
+    margin: auto;
+}
+
+form h1, input,
+button {
+    
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.linea{
+    border: 1px solid black;
+}
+
+form a{
+    text-align: center;
+    display: block;
+    margin: 10px 0 10px 0;
+
+}
+
+.login h1{
+    text-align: center;
+    font-family: 'Mulish', sans-serif; 
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color1); 
+}
+
+.login input,a{
+    font-family: 'Mulish', sans-serif;
+font-size: 18.6px;
+font-weight: 400;
+color: var(--color3);
+}
+.login button{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--color2);
+
+}
+
+.login a{
+    color: var(--color2);
+}
