@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+    --color-button1:#f98500;
+    --color-button2:#2c00cc;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linea-sup {
+    height: 20px;
+    background-color: var(--color2);
+}
+
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../Recursos/M5-logo-azul.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+    
+}
+
+.red a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: var(--color1);
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+.activo {
+    font-weight: 700;
+}
+
+/* main{
+    width: 80%;
+    margin: auto;
+} */
+
+input{
+    width: 100%;
+    height: 50px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+form{
+    width: 500px;
+    /* margin: auto; */
+    margin-left: 70px;
+}
+
+.parrafos{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 45.3px;
+    font-weight: 700;
+    color: #2c00cc;
+    margin-left: 70px;
+}
+
+.p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30.6px;
+    font-weight: 400;
+    color: var(--color1);
+    margin: 30px 0 30px 0;
+    
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30.6px;
+    font-weight: 700;
+    color: var(--color1);
+
+}
+
+.campos{
+    
+}
+
+input,textarea{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--color4);
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 10px;
+    width: 180px;
+    font-family: 'Roboto Slab', serif; 
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--color-button1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: var(--color-button2);
+    margin-left: 30px;
+}
