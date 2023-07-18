@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.linea-sup {
+    height: 20px;
+    background-color: var(--color2);
+}
+
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../Recursos/M5-logo-azul.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+}
+
+.red a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: var(--color1);
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+
+main{
+    margin-top: 50px;
+}
+.cabecera {
+text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.cab-1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--color2);
+}
+
+.cab-2 {
+    font-family: 'Roboto', sans-serif;
+font-size: 34px;
+font-weight: 400;
+color: var(--color1);
+}
+
+.img-central {
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Recursos/M5-Desafío1-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.activo {
+    font-weight: 700;
+}
