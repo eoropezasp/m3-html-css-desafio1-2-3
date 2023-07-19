@@ -134,6 +134,7 @@ main {
 }
 
 .contenedor {
+    margin-top: -200px;
     display: flex;
 }
 
