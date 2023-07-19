@@ -14,8 +14,8 @@ font-family: 'Roboto Slab', serif;
     --color-fondo1: #eff2ff;
     --color-fondo2: #8a9af1;
     --color-linea: #3ffff3;
-    --color-button1:#f98500;
-    --color-button2:#2c00cc;
+    --color-button1: #f98500;
+    --color-button2: #2c00cc;
 
 }
 
@@ -51,7 +51,7 @@ nav {
 .red {
     display: flex;
     align-items: center;
-    
+
 }
 
 .red a {
@@ -62,49 +62,48 @@ nav {
     text-decoration: none;
 
 }
+
 .activo {
     font-weight: 700;
 }
 
-/* main{
-    width: 80%;
-    margin: auto;
-} */
 
-input{
+
+input {
     width: 100%;
     height: 50px;
 }
 
-textarea{
+textarea {
     width: 100%;
     height: 100px;
 }
 
-form{
+form {
     width: 500px;
-    /* margin: auto; */
+
     margin-left: 70px;
+    margin-bottom: 50px;
 }
 
-.parrafos{
-    font-family: 'Roboto Slab', serif; 
+.parrafos {
+    font-family: 'Roboto Slab', serif;
     font-size: 45.3px;
     font-weight: 700;
     color: #2c00cc;
     margin-left: 70px;
 }
 
-.p2{
+.p2 {
     font-family: 'Roboto', sans-serif;
     font-size: 30.6px;
     font-weight: 400;
     color: var(--color1);
     margin: 30px 0 30px 0;
-    
+
 }
 
-label{
+label {
     font-family: 'Roboto', sans-serif;
     font-size: 30.6px;
     font-weight: 700;
@@ -112,11 +111,10 @@ label{
 
 }
 
-.campos{
-    
-}
+.campos {}
 
-input,textarea{
+input,
+textarea {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 400;
@@ -124,10 +122,10 @@ input,textarea{
     margin-top: 20px;
 }
 
-button{
+button {
     margin-top: 10px;
     width: 180px;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     font-size: 32px;
     font-weight: 700;
     color: white;
@@ -136,7 +134,7 @@ button{
     cursor: pointer;
 }
 
-.btn2{
+.btn2 {
     background-color: var(--color-button2);
     margin-left: 30px;
 }

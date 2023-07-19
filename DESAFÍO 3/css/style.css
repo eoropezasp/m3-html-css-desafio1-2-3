@@ -14,7 +14,6 @@ font-family: 'Roboto Slab', serif;
     --color-fondo1: #eff2ff;
     --color-fondo2: #8a9af1;
     --color-linea: #3ffff3;
-
 }
 
 
@@ -22,6 +21,7 @@ font-family: 'Roboto Slab', serif;
 * {
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -62,11 +62,12 @@ nav {
 
 }
 
-main{
+main {
     margin-top: 50px;
 }
+
 .cabecera {
-text-align: center;
+    text-align: center;
     width: 90%;
     margin: auto;
 }
@@ -80,15 +81,15 @@ text-align: center;
 
 .cab-2 {
     font-family: 'Roboto', sans-serif;
-font-size: 34px;
-font-weight: 400;
-color: var(--color1);
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--color1);
 }
 
 .img-central {
     margin-top: 30px;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-image: url("../Recursos/M5-Desafío1-img.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -97,4 +98,46 @@ color: var(--color1);
 
 .activo {
     font-weight: 700;
+}
+
+.caracteristicas {
+    width: 70%;
+    margin-left: 50px;
+}
+
+
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 41px;
+    font-weight: 700;
+    color: var(--color2);
+    margin-bottom: 40px;
+}
+
+.parrafo {
+    margin-top: 20px;
+}
+
+.parrafo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color1);
+    margin: 0;
+}
+
+.parrafo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color1);
+}
+
+.contenedor {
+    display: flex;
+}
+
+.img-fondo {
+    width: 100%;
+    height: 100%;
 }
